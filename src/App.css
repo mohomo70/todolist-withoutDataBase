@@ -1,0 +1,15 @@
+main{
+  min-height: 80vh;
+}
+
+.done{
+  background-color: aquamarine;
+  animation-name: animation;
+
+  animation-duration: 1s;
+}
+
+@keyframes animation {
+  from {background-color: white;} 
+  to {background-color: aquamarine;}
+}
